@@ -42,7 +42,9 @@ int main()
     third->next = NULL;
     
     printf("Linked List elements:\n");
+    head=insertFirst(head,5);
     insert(head);
 
     return 0;
+
 }
